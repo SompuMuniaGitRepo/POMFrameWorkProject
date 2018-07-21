@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Test Automation Complete Test Suite">
+  <test thread-count="5" name="Free CRM Test Automation Test Cases">
+    <classes>
+      <class name="com.dd.crm.pom.testlayer.AfterLoginHomePageTest"/>
+      <class name="com.dd.crm.pom.testlayer.LoginTest"/>
+      <class name="com.dd.crm.pom.testlayer.ContactsPageTest"/>
+    </classes>
+  </test> <!-- Free CRM Test Automation Test Cases -->
+</suite> <!-- Free CRM Test Automation Complete Test Suite -->

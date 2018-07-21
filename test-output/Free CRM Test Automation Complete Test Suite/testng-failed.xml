@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Test Automation Complete Test Suite]">
+  <test thread-count="5" name="Free CRM Test Automation Test Cases(failed)">
+    <classes>
+      <class name="com.dd.crm.pom.testlayer.AfterLoginHomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="HomePageTitletest"/>
+          <include name="tearDown"/>
+          <include name="contactsPageLinkClickTest"/>
+          <include name="VerifylandPageUser"/>
+        </methods>
+      </class> <!-- com.dd.crm.pom.testlayer.AfterLoginHomePageTest -->
+      <class name="com.dd.crm.pom.testlayer.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ExportlabelTest"/>
+          <include name="setUp"/>
+          <include name="contactsLabelTest"/>
+          <include name="contactSelecttest"/>
+        </methods>
+      </class> <!-- com.dd.crm.pom.testlayer.ContactsPageTest -->
+      <class name="com.dd.crm.pom.testlayer.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCRMlogoImage"/>
+          <include name="testLogin"/>
+          <include name="testLoginPageTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dd.crm.pom.testlayer.LoginTest -->
+    </classes>
+  </test> <!-- Free CRM Test Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Free CRM Test Automation Complete Test Suite] -->
